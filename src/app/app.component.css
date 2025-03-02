@@ -1,0 +1,48 @@
+li {
+  float: left;
+  border-radius: rebeccapurple;
+  border: 210px;
+}
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #3f1919;
+  border-radius: 20px rebeccapurple;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.accentColor {
+  padding: 10px;
+}
+.layout {
+  background-color: rgb(199, 208, 214);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
